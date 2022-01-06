@@ -19,12 +19,56 @@ class BlogController extends AbstractController
     }
 
     /**
-     * @Route("/home", name="home")
+     * @Route("/cv", name="cv")
      */
 
-    public function home(): Response
+    public function cv(): Response
     {
-        return $this->render('blog/home.html.twig', [
+        return $this->render('blog/cv.html.twig', [
+            'controller_name' => 'BlogController',
+        ]);
+    }
+
+    /**
+     * @Route("/portfolio", name="Portfolio")
+     */
+
+    public function portfolio(): Response
+    {
+        return $this->render('blog/portfolio.html.twig', [
+            'controller_name' => 'BlogController',
+        ]);
+    }
+
+    /**
+     * @Route("/loisirs", name="Loisirs")
+     */
+
+    public function loisirs(): Response
+    {
+        return $this->render('blog/loisirs.html.twig', [
+            'controller_name' => 'BlogController',
+        ]);
+    }
+
+    /**
+     * @Route("/more", name="more")
+     */
+
+    public function more(): Response
+    {
+        return $this->render('blog/more.html.twig', [
+            'controller_name' => 'BlogController',
+        ]);
+    }
+
+    /**
+     * @Route("/contact", name="contact")
+     */
+
+    public function contact(): Response
+    {
+        return $this->render('blog/contact.html.twig', [
             'controller_name' => 'BlogController',
         ]);
     }
