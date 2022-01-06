@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer{
+    text-align: left;
+    font-size: large;
+}
+
+.accueil{
+    height: 60%;
+    width: 60%;
+}
+
+.diapo1{
+    height: 33%;
+    width: 33%;
+}
+
+.diapo2{
+    height: 33%;
+    width: 33%;
+}
+
+.diapo3{
+    height: 33%;
+    width: 33%;
+}
+
+
