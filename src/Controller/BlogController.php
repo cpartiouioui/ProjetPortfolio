@@ -72,4 +72,12 @@ class BlogController extends AbstractController
             'controller_name' => 'BlogController',
         ]);
     }
+    
+     /**
+    * @Route("/", name="root")
+    */
+    public function root(): Response
+    {
+        return $this->redirectToRoute("blog");
+    }
 }
