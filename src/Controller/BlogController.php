@@ -73,7 +73,7 @@ class BlogController extends AbstractController
         ]);
     }
     
-     /**
+   /**
     * @Route("/", name="root")
     */
     public function root(): Response
